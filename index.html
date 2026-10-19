@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Research opportunities, faculty contacts and graduate application planning for Nishankar Sathiyamohan.">
+  <title>Fieldnotes · Research & Applications</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="#overview"><span class="brand-symbol">f<span>·</span></span><span>fieldnotes<small>RESEARCH & APPLICATIONS</small></span></a>
+  <div class="workspace-label">YOUR WORKSPACE</div>
+  <nav aria-label="Main navigation" id="nav"></nav>
+  <div class="sidebar-bottom"><span class="small-dot"></span> Public research · personal notes<p>For Nishankar Sathiyamohan<br>Fall 2027 · or sooner</p><div class="save-state" id="save-state" role="status">Loading saved progress…</div></div>
+</aside>
+<div class="shell">
+  <header class="topbar"><button class="icon-button mobile-menu" id="mobile-menu" aria-label="Toggle navigation">☰</button><div class="breadcrumb" id="breadcrumb">Your next chapter</div><div class="top-actions"><label class="global-search"><span aria-hidden="true">⌕</span><input id="global-search" type="search" aria-label="Search all leads" placeholder="Search a name, lab or research topic…"><kbd>/</kbd></label><button class="button quiet" id="backup">Export backup</button><button class="avatar" id="profile-link" aria-label="View your research profile">NS</button></div></header>
+  <main id="main" tabindex="-1"></main>
+  <footer>Built around your research, one thoughtful application at a time. <span>Findings checked 19 Oct 2026 · source dates are preserved</span></footer>
+</div>
+<dialog id="detail" class="drawer" aria-labelledby="detail-title"><div class="drawer-top"><span class="eyebrow">RESEARCH LEAD</span><button class="icon-button" id="close-detail" aria-label="Close lead details">✕</button></div><div id="detail-body"></div></dialog>
+<dialog id="add-dialog" class="add-dialog" aria-labelledby="add-title"><form id="add-form"><div class="section-heading"><h2 id="add-title">A new possibility</h2><button type="button" class="icon-button" id="close-add" aria-label="Close add lead">✕</button></div><p class="muted">Add a supervisor or opportunity. You can keep researching it here.</p><label>Name / lab<input name="name" required maxlength="200" placeholder="Professor or programme name"></label><div class="form-grid"><label>University<input name="university" required maxlength="250"></label><label>Country<input name="country" required maxlength="80"></label><label>Category<select name="category"><option value="opportunity">Opportunity</option><option value="faculty">Faculty</option><option value="outreach">Outreach / collaboration</option></select></label><label>Research fit<select name="fit"><option>Unknown</option><option>Strong</option><option>Good</option><option>Adjacent</option></select></label></div><label>Research areas<input name="topics" maxlength="1000"></label><div class="form-grid"><label>Public email<input name="contact" type="email" maxlength="254"></label><label>Application deadline<input name="deadline" type="date"></label></div><label>Source link<input name="source" type="url" placeholder="https://…"></label><label>What interests you?<textarea name="summary" rows="3" maxlength="6000"></textarea></label><button class="button primary" type="submit">Add to your workspace <span aria-hidden="true">↗</span></button></form></dialog>
+<input type="file" id="import-file" accept="application/json,.json" hidden>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
+
