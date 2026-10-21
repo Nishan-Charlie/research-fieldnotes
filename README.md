@@ -2,7 +2,9 @@
 
 Research and graduate application hub for Nishankar Sathiyamohan.
 
-**Live website:** https://Nishan-Charlie.github.io/research-fieldnotes/
+**Synced website:** https://research-fieldnotes.nishannishankar.chatgpt.site/
+
+The original GitHub Pages address forwards visitors with no saved progress to the synced website. Browsers with existing progress keep the original workspace and show a backup-and-transfer notice. No personal data is placed in the redirect URL.
 
 Contains 97 research leads: 28 opportunity leads, 63 faculty/research contacts and 6 earlier outreach leads. Findings were checked on 19 October 2026; the included fee-waiver starter tracker was checked on 11 October 2026. Funding, deadlines and eligibility must be confirmed with the original sources.
 
@@ -16,7 +18,7 @@ Contains 97 research leads: 28 opportunity leads, 63 faculty/research contacts a
 
 ## Personal progress
 
-This is a static public website. Your changes save in your current browser only; they are not sent to GitHub or shared with other visitors. Use Export backup and Import backup to move your progress between devices. Clearing browser storage can remove your progress. Keep your downloaded backups private.
+This repository retains the original browser-only website for migration. Its local progress remains in that browser. Export a backup here, then sign in to the synced website and use Import backup once. Keep backups private. The synced website stores private application progress, notes and SOP links behind owner sign-in; explicitly published research leads are shared publicly.
 
 The published directory and included profile are public. Local progress files, logs, CVs and application documents are not included in this repository.
 

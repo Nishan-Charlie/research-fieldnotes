@@ -1,0 +1,7 @@
+.has-cloud-move { padding-bottom: 230px; }
+.cloud-move { position: fixed; bottom: 20px; left: max(20px, calc((100vw - 1100px) / 2)); right: 20px; max-width: 1100px; z-index: 90; display: flex; gap: 28px; align-items: center; padding: 24px 28px; background: #fff; color: #192129; border: 2px solid #26323b; border-radius: 12px; box-shadow: 0 10px 40px #15212d24; font-size: 17px; line-height: 1.55; }
+.cloud-move h2 { margin: 0 0 8px; font-size: 24px; color: #17212b; }
+.cloud-move p { margin: 0; }
+.cloud-move .cloud-move-status { margin-top: 8px; font-size: 15px; }
+.cloud-move-actions { display: flex; flex-direction: column; gap: 10px; flex: 0 0 215px; }
+@media(max-width: 700px) { .cloud-move { left: 12px; right: 12px; bottom: 12px; padding: 18px; display: block; max-height: 80vh; overflow: auto; } .cloud-move-actions { margin-top: 16px; } .has-cloud-move { padding-bottom: 380px; } }
